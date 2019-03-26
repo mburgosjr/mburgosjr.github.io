@@ -1,0 +1,80 @@
+
+
+/*===============================================*/
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Just Another Hand', cursive;
+	font-size: 40px;
+}
+/*========================NAV==============================*/
+h1 {
+	font-family: 'Just Another Hand', cursive;
+	color: #9783c6;
+	font-size: 50px;
+}
+.nav {
+	background-color: #595959;
+	color: #ffffff;
+	list-style: none;
+	text-align: center;
+	padding: 20px 0 20px 0;
+}
+.nav > li {
+	display: inline-block;
+	padding-right: 50px;
+}
+
+.nav > li > a {
+	text-decoration: none;
+	color: #ffffff;
+
+
+}
+.nav > li > a:hover {
+	color: #9783c6;
+}
+/*========================NAV============================
+*/
+
+
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-between;
+}
+
+.text {
+	text-align: center;
+	color: #9783c6;
+	padding-bottom: 30px;
+}
+
+.text:hover {
+	opacity: 0.5;
+	color: #b38ee2;
+}
+
+img {
+	width: 450px;
+	height: 300px;
+	border: 2px solid #9892a0 ;
+	border-radius: 5px;
+}
+
+img:hover {
+	opacity: 0.9;
+}
+
+h1:hover {
+	opacity: 0.5;
+}
+
+
+a {
+	text-decoration: none;
+	color: #9783c6;
+}
+
